@@ -1,0 +1,12 @@
+---
+name: "demo4"
+runner_type: "python-script"
+description: "Print message to standard output."
+enabled: true
+entry_point: "demo4.py"
+parameters:
+    response:
+        type: "string"
+        description: "Status_code to print."
+        required: true
+        position: 0
